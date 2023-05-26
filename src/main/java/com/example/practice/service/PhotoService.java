@@ -62,10 +62,7 @@ public class PhotoService {
             } else {
                 contentType = "image"; // 기본적으로 "image"로 설정 또는 예외 처리를 추가할 수 있습니다.
             }
-        } else {
-            contentType = "image"; // 확장자가 없을 경우 기본적으로 "image"로 설정 또는 예외 처리를 추가할 수 있습니다.
-        }
-
+        } 
         Photo photo = Photo.builder()
                 .photoData(fileName.getBytes())
                 .contentType(contentType) // 이미지의 타입 저장
