@@ -60,7 +60,7 @@ public class PhotoService {
             } else if ("gif".equalsIgnoreCase(extension)) {
                 contentType = "image/gif";
             } else {
-                contentType = "image"; // 기본적으로 "image"로 설정 또는 예외 처리를 추가할 수 있습니다.
+                contentType = "image"; 
             }
         } 
 
